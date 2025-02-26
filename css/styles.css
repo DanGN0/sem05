@@ -3,6 +3,8 @@
 ----------------------------------------------------------------------------*/
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
+
 }
 
 *,
@@ -17,10 +19,8 @@ html {
 
 /* ===== Numéro 1 ===== */
 body {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 160%;
+    font: normal 1.8rem/160% 'PT Sans', sans-serif;
+
 }
 
 
@@ -30,11 +30,9 @@ body {
 
 /* ===== Numéro 2 ===== */
 .wrapper {
-    max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+    max-width: 110.0rem;
+
+    margin: 0 auto;
 }
 
 
@@ -44,62 +42,55 @@ body {
 
 /* ===== Numéro 3a ===== */
 header .wrapper {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* ===== Numéro 3b ===== */
 .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
 
+    font: 700 4rem "Nunito",sans-serif;
 }
 
 /* ===== Numéro 3c ===== */
-/*
-.menu ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 0;
 
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-right: 0;
-    padding-left: 0;
+.menu ul {
+    margin:0;
+    padding: 0;
+
+    list-style-type: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:3rem;
 }
-*/
+
 
 /* ===== Numéro 3d ===== */
-/*
+
 .menu a {
-    color: black;
-    font-weight: bold;
-    font-size: 14px;
-    font-family: 'PT Sans', sans-serif;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
+
+    font: uppercase bold 14px 'PT Sans', sans-serif;
+    padding: 0 auto;
+
+    /* ne peuvent etre raccourcies */
     text-transform: uppercase;
-    text-decoration: none;
+    color:black;
 }
-*/
+
 
 /* ===== Numéro 3e ===== */
-/*
+
 .menu a:hover {
-    border-top-color: #000;
-    border-right-color: black;
-    border-bottom-color: #000;
-    border-left-color: black;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-left-style: solid;
-    border-bottom-style: solid;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
+    border: 2px solid black;
 }
-*/
+
 
 /* ===== Numéro 3f ===== */
 /*
